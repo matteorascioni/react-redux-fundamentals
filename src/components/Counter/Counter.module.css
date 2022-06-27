@@ -1,11 +1,11 @@
 /* Container */
 .container {
-  margin: 5rem auto;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-  padding: 1rem;
+  padding: var(--spacing4);
   text-align: center;
   background-color: var(--cultured);
+  margin-bottom: var(--spacing10);
 }
 
 /* Headline */

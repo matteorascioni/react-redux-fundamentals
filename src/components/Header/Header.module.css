@@ -19,7 +19,7 @@
 
 /* ListItem */
 .listItem {
-  margin: 0 1rem;
+  margin: 0 var(--spacing2);
 }
 
 /* ListLink */

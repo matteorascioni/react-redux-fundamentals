@@ -41,7 +41,7 @@ const Counter = () => {
       `}
     >
       {/* Headline */}
-      <h1 className={styles.headline}>Redux Counter</h1>
+      <h2 className={styles.headline}>Redux Counter</h2>
       {show && (
         <>
           {/* Value */}

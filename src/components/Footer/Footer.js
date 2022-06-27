@@ -6,7 +6,9 @@ const Footer = () => {
     return (
         <footer className={styles.container}>
             {/* Headline */}
-            <h1 className={styles.headline}>Redux React Fundamentals</h1>
+            <h2 className={styles.headline}>
+                React Redux Fundamentals
+            </h2>
         </footer>
     )
 }

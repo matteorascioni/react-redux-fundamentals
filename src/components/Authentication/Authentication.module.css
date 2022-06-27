@@ -6,6 +6,7 @@
   padding-right: var(--spacing3);
   border-radius: 8px;
   background-color:var(--cultured);
+  margin-bottom: var(--spacing8);
 }
 
 /* Container */
@@ -28,5 +29,5 @@
   padding-left: var(--spacing2);
   border-radius: 4px;
   border: 1px solid var(--light-gray);
-  outline-color: var(--purple);
+  outline: none;
 }

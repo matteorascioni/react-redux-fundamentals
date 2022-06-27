@@ -1,6 +1,7 @@
 .container {
   border-radius: 8px;
   padding: var(--spacing3);
+  margin-bottom: var(--spacing8);
   text-align: center;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
   background-color: var(--cultured);
