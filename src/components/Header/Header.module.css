@@ -1,48 +1,50 @@
-.header {
+/* Container */
+.container {
   width: 100%;
-  height: 5rem;
+  height: var(--main-navigation-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3c0080;
-  color: white;
-  padding: 0 10%;
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 0 var(--spacing4);
 }
 
-.header ul {
+/* List */
+.list {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
   align-items: center;
 }
 
-.header li {
+/* ListItem */
+.listItem {
   margin: 0 1rem;
 }
 
-.header a {
+/* ListLink */
+.listLink {
   text-decoration: none;
-  color: white;
   font-size: 1.25rem;
+  color: var(--white);
 }
 
-.header a:hover,
-.header a:active {
-  color: #b864da;
+.listLink:hover,
+.listLink:active {
+  color: var(--pink);
 }
 
-.header button {
+/* Button */
+.button {
   font-size: 1.25rem;
-  background-color: #ffbb00;
-  border: 1px solid #ffbb00;
-  padding: 0.5rem 1.5rem;
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  color: #2c2922;
+  color: var(--brown);
 }
 
-.header button:hover,
-.header button:active {
-  background-color: #ffa600;
-  border-color: #ffa600;
+.button:hover,
+.button:active {
+  background-color: var(--orange);
+  border-color: var(--orange);
 }

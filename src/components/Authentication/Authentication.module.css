@@ -1,0 +1,32 @@
+/* Container */
+.container {
+  padding-top: var(--spacing4);
+  padding-bottom: var(--spacing6);
+  padding-left: var(--spacing3);
+  padding-right: var(--spacing3);
+  border-radius: 8px;
+  background-color:var(--cultured);
+}
+
+/* Container */
+.control {
+  margin-bottom: var(--spacing3);
+}
+
+/* Label */
+.label {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: var(--spacing);
+  color: var(--gray);
+}
+
+/* Input */
+.input {
+  width: 100%;
+  height: 46px;
+  padding-left: var(--spacing2);
+  border-radius: 4px;
+  border: 1px solid var(--light-gray);
+  outline-color: var(--purple);
+}

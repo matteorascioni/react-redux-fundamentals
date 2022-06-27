@@ -1,0 +1,66 @@
+:root {
+    /*fonts*/
+    --sans-serif: 'Roboto', sans-serif;
+    --light: 300;
+    --regular: 400;
+    --roman: 400;
+    --medium: 500;
+    --semibold: 600;
+    --heavy: 800;
+
+    /* Color variables */
+    --pure-white: #ffff;
+    --cultured: #f4f0fa;
+    --purple: #3c0080;
+    --light-purple:#5b14ac;
+    --pink: #b865da;
+    --light-gray: #ccc;
+    --orange: #ffa600;
+    --gray: #616161;
+    --white: #fff;
+    --brown: #2c2922;
+    --dark-brown: #252525;
+    --black: #000000;
+
+    /* Layout variables */
+    --spacing: 8px;
+    --spacing2: 16px;
+    --spacing3: 24px;
+    --spacing4: 32px;
+    --spacing5: 40px;
+    --spacing6: 48px;
+    --spacing7: 56px;
+    --spacing8: 64px;
+    --spacing9: 72px;
+    --spacing10: 80px;
+    --spacing11: 88px;
+    --spacing12: 96px;
+    --spacing13: 104px;
+    --spacing15: 120px;
+    --spacing16: 128px;
+    --spacing17: 136px;
+    --spacing20: 160px;
+    --spacing23: 184px;
+    --spacing25: 200px;
+    --max-page-width: 1680px;
+    --main-navigation-height: 5rem;
+
+    /* Media Queries breakpoints | Attention! CSS Variables won't work in media queries so this is for information foremost */
+    --tablet: 768px;
+    --desktop: 1280px;
+
+    /** Transformations */
+    --transition-default-timing: 200ms;
+    --transition-default-easing-out: ease-out;
+    --transition-default-easing-in: ease-in;
+
+    /** Viewport width and offset **/
+    --viewport-width: calc(100vw - var(--page-scrollbar-width));
+    --viewport-offset: 0px;
+}
+
+@media (min-width: 1680px) {
+    :root {
+        --viewport-offset: calc(0.5 * (var(--viewport-width) - var(--max-page-width)));
+    }
+}

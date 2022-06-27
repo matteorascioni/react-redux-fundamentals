@@ -1,0 +1,14 @@
+.container {
+    cursor: pointer;
+    background-color: var(--purple);
+    border: 1px solid var(--light-purple);
+    color: var(--white);
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+}
+
+.container:hover,
+.container:active {
+    background-color: var(--light-purple);
+    border-color: var(--light-purple);
+}

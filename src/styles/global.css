@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  font-family: sans-serif;
+  color: var(--dark-brown);
+  background-color: var(--dark-brown);
+}
+
+.main-container {
+  margin-top: var(--main-navigation-height);
+}
+
+a,
+button {
+  transition: var(--transition-default-timing) var(--transition-default-easing-in);
+}
